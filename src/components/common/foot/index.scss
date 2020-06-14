@@ -1,0 +1,19 @@
+.foot-items {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #fff;
+  .foot-item {
+    width: 25%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #666D7F;
+    &.active {
+      color: #0055FF;
+    }
+  }
+}
