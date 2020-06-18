@@ -9,7 +9,7 @@ class Layout extends React.Component {
       <section>
         <Head title="page1的标题" />
         <div className="content"></div>
-        <Foot />
+        <Foot curIndex="recomment" />
       </section>
     );
   }
